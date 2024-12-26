@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Restaurant</title>
+    <link rel="stylesheet" href="restaurant.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="restaurant.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Our Restaurant</h1>
+      <h1 class="subheading">Welcome to Our Restaurant</h1>
+      <p id="our-story">
+        Our restaurant was founded with the aim of bringing people together
+        through good food and great company.
+      </p>
+      <h2 class="subheading">Our Story</h2>
+      <p class="fadeable">
+        We offer a diverse menu that celebrates local and international
+        cuisines, with a touch of African flavor.
+      </p>
+      <img
+        id="foodImage"
+        src="assets/Our restuarant.jpg"
+        alt="A variety of dishes served at our restaurant"
+        width="1000"
+      />
+      <button id="fadeInButton">Fade In/Out Image</button>
+      <button id="stopButton">Stop Animation</button>
+    </header>
+
+    <main>
+      <section>
+        <h2 class="subheading">Our Story</h2>
+        <p id="our-story">
+          Our restaurant was founded with the aim of bringing people together
+          through good food and great company.
+        </p>
+        <img
+          src="assets/Callie+Restaurant+319.jpg"
+          alt="Our Story"
+          width="500"
+        />
+      </section>
+
+      <section>
+        <h2 class="subheading">Our Food</h2>
+        <div class="menu-continer"></div>
+        <div class="dropdown-title">Menu</div>
+        <div class="dropdown-content">
+          <p>Breakfast</p>
+          <p>Lunch</p>
+          <p>Dinner</p>
+          <p>Desserts</p>
+          <p>Drinks</p>
+        </div>
+
+        <div class="dropdown"></div>
+        <p id="our-food">
+          We offer a diverse menu that celebrates local and international
+          cuisines. This is with some african taste.
+        </p>
+        <img src="assets/Food.jpg" alt="Our Food" width="500" />
+      </section>
+
+      <section>
+        <h2 class="subheading">Our People</h2>
+        <p id="our-people">
+          Our team is dedicated to providing an exceptional dining experience,
+          warm greetings and wonderful host to the lifestyle we bring.
+        </p>
+        <img src="assets/our people.jpg" alt="Our People" width="800" />
+      </section>
+
+      <button id="fadeInButton">Fade In/Out Image</button>
+      <button id="stopButton">Stop Animation</button>
+      <img
+        id="foodImage"
+        src="assets/food.jpg"
+        alt="Food"
+        style="display: none"
+      />
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Our Restaurant. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
